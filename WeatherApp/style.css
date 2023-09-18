@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    background-image: url('./img/bk.jpg');
+   background-size:cover;
+   font-size: large;
+   
+}
+
+.search {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#s {
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 80%;
+    max-width: 300px;
+}
+
+#ss {
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-size:x-large;
+}
+
+.container > div {
+    flex: 1;
+    min-width: calc(33.33% - 40px); 
+    margin: 30px;
+
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .container > div {
+        flex: 1;
+        min-width: calc(50% - 40px); 
+        margin: 20px ;
+    }
+}
+.logo img{
+height: 200px;
+width: 300px;
+margin: auto;
+}
+.temp img{
+    height: 200px;
+    width: 250px;
+    margin: auto ;
+    
+}
+
+.windSpeed img{
+
+    height: 250px;
+    width: 250px;
+    margin: auto;    
+}
+.humidity img{
+    height: 200px;
+    width: 250px;
+    margin: auto;  
+
+}
+#img1{
+
+    border-radius: 50px;
+}
